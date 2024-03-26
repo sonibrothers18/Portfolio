@@ -70,7 +70,8 @@ header nav {
 
 .instagram,
 .twitter,
-.linkedin {
+.linkedin,
+.github {
     padding-right: 30px;
 }
 
@@ -211,11 +212,11 @@ nav ul li a:hover{
     border-radius: 30px;
 }
 
-.fa-instagram, .fa-twitter, .fa-linkedin{
+.fa-instagram, .fa-twitter, .fa-linkedin, .fa-github{
     color: white;
 }
 
-.fa-instagram:hover, .fa-twitter:hover, .fa-linkedin:hover{
+.fa-instagram:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-github:hover{
     color: black;
 }
 
