@@ -1,0 +1,229 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* ---------------------------------------------------------------- */
+
+.popup{
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+.popup h1{
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.popup button{
+    /* margin: -120px -550px 100px 100px; */
+    border: none;
+    background-color: transparent;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+/* ---------------------------------------------------------------- */
+
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: gray;
+    color: white;
+    position: sticky;
+    top: 0px;
+    height: 10vh;
+    /* width: 100vw; */
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+.social {
+    display: flex;
+    justify-content: right;
+}
+
+.instagram,
+.twitter,
+.linkedin {
+    padding-right: 30px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li {
+    font-size: x-large;
+    padding-left: 20px;
+    list-style: none;
+}
+
+.name_photo {
+    height: 90vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 120px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.mayur {
+    margin-right: 50px;
+}
+
+.start {
+    font-style: italic;
+    background-color: black;
+    color: white;
+    height: 90vh;
+    font-size: 90px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.photo_detail {
+    height: 90vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.photo {
+    margin-right: 100px;
+}
+
+.details {
+    font-size: 40px;
+    color: white;
+}
+
+.intro {
+    display: flex;
+    height: 90vh;
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    align-items: center;
+    text-align: center;
+}
+
+.objective,
+.education,
+.technical_skills,
+.internship,
+.contact,
+.certificates,
+.resume {
+    padding-left: 15px;
+    padding-top: 15px;
+    line-height: 40px;
+    /* background-color: black; */
+    color: white;
+}
+
+.inside_detail {
+    padding: 15px 30px 30px 30px;
+    font-size: large;
+}
+
+.secondary_education,
+.senior_secondary_education,
+.graduation {
+    border: solid white 5px;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+    width: 35%;
+}
+
+.education {
+    margin: 0px;
+    padding-left: 15px;
+    background-color: black;
+    color: white;
+}
+
+.education_1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    /* background-color: #222; */
+    background-color: gray;
+    color: white;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 25px;
+}
+
+.copyright{
+    text-align: center;
+}
+
+nav ul li a:hover{
+    color: black;
+    background-color: white;
+    border: solid 10px white;
+    border-radius: 30px;
+}
+
+.fa-instagram, .fa-twitter, .fa-linkedin{
+    color: white;
+}
+
+.fa-instagram:hover, .fa-twitter:hover, .fa-linkedin:hover{
+    color: black;
+}
+
+.certificates a,
+.resume a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: solid 15px white;
+    border-radius: 50px;
+}
